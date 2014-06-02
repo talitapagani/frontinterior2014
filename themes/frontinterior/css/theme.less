@@ -1,0 +1,263 @@
+@import "_mixins.less";
+
+/* @license
+ * MyFonts Webfont Build ID 2379463, 2012-10-07T10:59:30-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Museo 700 by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo/700/
+ * Licensed pageviews: Unlimited
+ * 
+ * Webfont: Museo 300 by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo/300/
+ * Licensed pageviews: unspecified
+ * 
+ * Webfont: Museo 500 by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo/500/
+ * Licensed pageviews: unspecified
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2379463
+ * Webfonts copyright: Copyright (c) 2008 by Jos Buivenga/exljbris. All rights reserved.
+ * 
+ * © 2012 Bitstream Inc
+*/
+
+ @font-face {
+   font-family: 'Museo';
+   font-weight: bold;
+   font-style: normal;
+   src: url('webfonts/244EC7_0_0.eot');
+   src: url('webfonts/244EC7_0_0.eot?#iefix') format('embedded-opentype'),
+        url('webfonts/244EC7_0_0.woff') format('woff'),
+        url('webfonts/244EC7_0_0.ttf') format('truetype');
+}
+ 
+  
+ @font-face {
+   font-family: 'Museo';
+   font-weight: normal;
+   font-style: normal;
+   src: url('webfonts/244EC7_1_0.eot');
+   src: url('webfonts/244EC7_1_0.eot?#iefix') format('embedded-opentype'),
+        url('webfonts/244EC7_1_0.woff') format('woff'),
+        url('webfonts/244EC7_1_0.ttf') format('truetype');
+}
+ 
+  
+ @font-face {
+   font-family: 'Museo-500';
+   src: url('webfonts/244EC7_2_0.eot');
+   src: url('webfonts/244EC7_2_0.eot?#iefix') format('embedded-opentype'),
+        url('webfonts/244EC7_2_0.woff') format('woff'),
+        url('webfonts/244EC7_2_0.ttf') format('truetype');
+}
+
+/* =============================================================================
+   MAIN LAYOUT
+   ========================================================================== */
+html {
+  background:#FFF;
+  font:normal normal 10px/1.2em arial, sans-serif;
+  color:#777;
+}
+
+/* =============================================================================
+   BASIC STYLES
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {font-family: Museo; color:#1797a2;}
+h3 {color:#333;}
+
+/* =============================================================================
+   NAVIGATION
+   ========================================================================== */
+nav {background: #a90329; font-family: Museo; font-weight: bold; text-align: center; text-shadow: 1px 1px 1px rgba(0,0,0,0.4);}
+.nav-link {color:#e7e7e7;}
+.nav-link:active,
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.current {color:#fff;}
+
+/* =============================================================================
+   HEADER
+   ========================================================================== */
+.header {
+  background-image: url('../img/cover.jpg');
+  background-color: #053F4E;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+  height: 500px;
+}
+.logo-link, .tagline, .call-action-area .price {
+  color:#fff;
+  text-shadow: 1px 2px 1px rgba(0,0,0,.3);
+}
+.cover-credit { position: absolute; top: 60px; left: 10px; color: #FFF; }
+.cover-credit a, .cover-credit a:hover { color: #CCC; }
+.logo-link, .tagline, .conf-theme, .call-action-area .price {
+  color:#fff;
+  text-shadow: 1px 2px 1px rgba(0,0,0,.3);
+}
+.tagline {font-weight: normal;}
+.logo-svg {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background: rgba(0, 23, 34, 0.8);
+  border-radius: 50%;
+}
+.call-action-area .price {color:#fddd52;}
+.call-action-area .call-action-link, .btn {
+  background-color: #fddd52;
+  background-image: -moz-linear-gradient(top, #fddd52 30%, #f0a303 150%);
+  background-image: -webkit-linear-gradient(top, #fddd52 30%, #f0a303 150%);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fddd52', endColorstr='#f0a303');
+  background-image: linear-gradient(top, #fddd52 30%, #f0a303 150%);
+  color:#2b2b2b;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.4), inset 0 -2px 3px 0 #cc7f0a, inset 0 1px 0 0 #fff9b1;
+  border-radius: 40px;
+}
+
+.github-link {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 11;
+}
+
+.github-link img {
+  border: 0;
+}
+
+/* =============================================================================
+   CONTENT
+   ========================================================================== */
+.content a {color:#053F4E;}
+.content a:hover, .content a:focus {
+  color:#1797A2;
+  text-decoration: underline;
+}
+
+/* =============================================================================
+   ABOUT
+   ========================================================================== */
+.about {
+  border:none;
+  background:#fff;
+  border-radius:4px;
+}
+
+/* =============================================================================
+   LOCATION
+   ========================================================================== */
+.location-area {
+  background: #e7e7e7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 300px;
+}
+
+/* =============================================================================
+   SPEAKER
+   ========================================================================== */
+.speaker-photo .photo {
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgba(0,0,0,.07);
+  .transition(all 0.3s ease-out);
+}
+.speakers-item:hover .speaker-photo .photo {box-shadow: 0 0 0 8px #00717B;}
+.speech-title {color:#1c4520;}
+.speech-time {
+  color:#fff;
+  background:#334da1;
+  border-radius: 8px;
+}
+
+/* =============================================================================
+   SCHEDULE
+   ========================================================================== */
+.schedule-tbl {
+  background:#fff;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);
+}
+.schedule-tbl table {background:#fff;}
+.schedule-tbl td, .schedule-tbl th {border-bottom:1px solid #e7e7e7;}
+.schedule-tbl tbody tr:nth-child(2n+1) {background:#f6f6f6;}
+.schedule-tbl th {color:#2b2b2b;}
+.schedule-tbl .speaker-photo .photo {box-shadow: 0 0 0 1px rgba(0,0,0,.3);}
+.speakers-company {color:#999;}
+.schedule-slot {color:#2b2b2b;}
+.schedule-tbl tbody tr:hover {background:#fffde1;}
+.schedule-coffee, .schedule-closing, .schedule-lunch, .schedule-other {color:#214f87;}
+
+/* =============================================================================
+   SPONSORS
+   ========================================================================== */
+.sponsor-link, .partner-link {
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);
+}
+.sponsor-link:hover, .sponsor-link:focus, .partner-link:hover, .partner-link:focus {border-color: #f0a303;}
+
+
+/* =============================================================================
+   CONTACT
+   ========================================================================== */
+.form input[type=text], .form input[type=email], .form textarea{
+  color: #777;
+  border: 1px solid #e7e7e7;
+  background: #fff;
+  border-radius: 4px;
+}
+.form input[type=text]:focus, .form input[type=email]:focus, .form textarea:focus {border-color:#aaa;outline:0;}
+
+/* =============================================================================
+   FOOTER
+   ========================================================================== */
+
+   .footer {
+    background-image: url('../img/footer.jpg');
+    background-color: #002E45;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
+    padding-top: 50px;
+    color: #FFF;
+   }
+
+   .footer h2, .footer h3, .footer h4,
+   .footer a, .footer a:hover { color: #FFF; }
+
+   .footer h3 { font-size: 2em; }
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width : 1024px) {
+  .header {
+    background-size: auto 100%;
+  }
+}
+@media only screen and (max-width : 480px) {
+  /* speakers */
+  .speaker-photo .photo {box-shadow: 0 0 0 3px rgba(0,0,0,.07);}
+  .speech-title {font-weight: bolder;}
+  .speech-time {
+    color:#2b2b2b;
+    background: transparent;
+    font-weight: bolder;
+  }
+  .github-link { display: none; }
+}
