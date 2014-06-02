@@ -1,0 +1,37 @@
+	<div class="team">
+
+      <h2 class="section-title">Equipe</h2>
+    
+      <ul class="team-list">
+          <li class="team-item">
+              <img src="<%= @getTheme() %>/img/avatar-talita.jpg" alt="Imagem de Talita Pagani" />
+              <h4 class="subtitle">Talita Pagani</h4>
+              <p class="small"><a href="http://twitter.com/talitapagani">@talitapagani</a></p>
+          </li>
+
+          <li class="team-item">
+              <img src="<%= @getTheme() %>/img/avatar-richard.jpg" alt="Imagem de Richard Johansen" />
+              <h4 class="subtitle">Richard D. Johansen</h4>
+              <p class="small"><a href="http://twitter.com/ridjohansen">@ridjohansen</a></p>
+          </li>
+
+          <li class="team-item">
+              <img src="<%= @getTheme() %>/img/avatar-rike.jpg" alt="Imagem de Henrique Silvério" />
+              <h4 class="subtitle">Henrique Silvério</h4>
+              <p class="small"><a href="http://twitter.com/RikeSilverio">@RikeSilverio</a></p>
+          </li>
+
+          <li class="team-item">
+              <img src="<%= @getTheme() %>/img/avatar-victor.jpg" alt="Imagem de Victor Simão" />
+              <h4 class="subtitle">Victor Simão</h4>
+              <p class="small"><a href="http://twitter.com/vfsimao">@vfsimao</a></p>
+          </li>
+      
+          <li class="team-item">
+              <img src="<%= @getTheme() %>/img/avatar-vini.jpg" alt="Imagem de Vinicius Ferreira" />
+              <h4 class="subtitle">Vinicius Ferreira</h4>
+              <p class="small"><a href="http://twitter.com/vniferreira">@vniferreira</a></p>
+          </li>
+
+      </ul>
+  </div>

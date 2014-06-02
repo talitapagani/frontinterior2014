@@ -41,6 +41,7 @@ nav {
   position: fixed;
   width: 100%;
   z-index: 10;
+  top: 0;
 }
 .nav-item {
   display: inline-block;
@@ -48,12 +49,19 @@ nav {
 }
 .nav-link {font-size: 1.4em;}
 
+#twitter-widget-0, #___plusone_0, .fb-like { vertical-align: bottom; }
+
 /* =============================================================================
    HEADER
    ========================================================================== */
 .header {
   padding: 100px 0 100px;
   text-align:center;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .logo-name {
   margin-bottom: 0;
@@ -83,6 +91,19 @@ nav {
   .transition(all 0.3s ease-out);
 }
 .call-action-area .call-action-link:hover, .call-action-area .call-action-link:focus, .btn:hover, .btn:focus {top:0;}
+
+/* =============================================================================
+   CONTENT
+   ========================================================================== */
+
+.content {
+  padding: 0;
+  position: relative;
+  background: #FFF;
+  margin-top: 600px;
+  z-index: 5;
+  width: 100%;
+}
 
 /* =============================================================================
    ABOUT
@@ -162,13 +183,13 @@ nav {
 }
 
 /* =============================================================================
-   SPONSORS  and  PARTNERS
+   SPONSORS, PARTNERS and TEAM
    ========================================================================== */
-.sponsor-item, .partner-item {
+.sponsor-item, .partner-item, .team-item {
   display: inline-block;
   margin: 0 30px 30px 0;
 }
-.sponsor-link, .partner-link {
+.sponsor-link, .partner-link, .team-link {
   display: block;
   width: 150px;
   height:150px;
@@ -176,6 +197,10 @@ nav {
   vertical-align: middle;
   line-height: 150px;
 }
+
+.team-item { text-align: center; width: 150px; }
+
+.team-item img { border-radius: 50%; }
 
 /* =============================================================================
    CONTATO
@@ -272,7 +297,7 @@ nav {
 @media only screen and (max-width : 480px) {
   /* nav */
   nav {display: none;}
-  .header {padding:20px 0;}
+  .header {padding:20px 0; height: auto;}
   .logo-name {font-size: 4em;}
   .tagline {
     margin-bottom:15px;
