@@ -7,34 +7,35 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
+      name: "FrontInterior 2014",
       description: "Conference description",
-      date: "November 15",
+      date: "29 e 30 de Agosto de 2014",
+      theme: "Mobile Web",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      //price: "Aguarde",
+      venue: "SESI (Horto)",
+      address: "Rua Profa. Zenita Alcântara Nogueira, 10166",
+      city: "Bauru",
+      state: "SP"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
-    callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
-    },
+    /*callToAction: {
+        text: "Inscreva-se!",
+        link: "http://eventick.com.br/frontinterior2014"
+    },*/
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
     forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
+        repository: "https://github.com/talitapagani/frontinterior2014"
     },
 
     // Site info
     site: {
-      theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      theme: "frontinterior",
+      url: "http://talitapagani.github.io/frontinterior2014/"
+      //googleanalytics: "UA-33656081-1"
     },
 
     // Active sections on the website
@@ -43,22 +44,22 @@ module.exports = {
     sections: [
       'about',
       'location',
-      'speakers',
-      'schedule',
+      //'speakers',
+      //'schedule',
       'sponsors',
-      'partners'
-      // 'contact'
+      'partners',
+      'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      about: "O Evento",
+      location: "Local",
+      speakers: "Palestrantes",
+      schedule: "Agenda",
+      sponsors: "Patrocinadores",
+      partners: "Apoiadores",
+      contact: "Seja um patrocinador"
     },
 
     // The entire schedule
@@ -171,7 +172,7 @@ module.exports = {
     sponsors: [
       {
         name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
+        logo: "themes/frontinterior/img/sponsor.png",
         url: "http://eventick.com.br"
       }
     ],
@@ -180,7 +181,7 @@ module.exports = {
     partners: [
       {
         name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
+        logo: "themes/frontinterior/img/partner.png",
         url: "http://braziljs.org"
       }
     ],
