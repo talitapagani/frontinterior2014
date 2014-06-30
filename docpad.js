@@ -102,21 +102,21 @@ module.exports = {
         name: "Lunch",
         time: "12h00"
       },
-      /*{
-        name: "Chuck Norris",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
+      {
+        name: "Gil Crespo",
+        photo: "themes/frontinterior/img/speaker-gil-crespo.jpg",
+        bio: "Atua na área de desenvolvimento Front-End desde 2005 e vem utilizando CSS3, HTML5 e jQuery para melhorar toda a experiência do usuário na operação de websites e sistemas. Trabalha com design resposivo aplicado à mobile e é autor do livro \"Responsive Web Design with jQuery\" (2013), lançado pela Editora PACKT Publishing.",
+        company: "UPPERCASE Consultoria",
         link: {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
+          href: "http://twitter.com/gilcrespo",
+          text: "@gilcrespo"
         },
         presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          title: "TBD",
+          description: "TBD",
           time: "13h00"
         }
-      },
+      }/*,
       {
         name: "Steve Jobs",
         photo: "themes/yellow-swan/img/speaker.jpg",
