@@ -1,10 +1,46 @@
 <h2 class="section-title"><%= @labels['sponsors'] %></h2>
-<ul class="sponsors-list">
 
-<% for sponsor in @sponsors: %>
+<h3>Premium</h3>
+<ul class="sponsors-list sponsor-premium">
+
+<% for sponsorPremium in @sponsorsPremium: %>
   <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url">
-      <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
+    <a href="<%= sponsorPremium.url %>" class="sponsor-logo sponsor-link" itemprop="url">
+      <img src="<%= sponsorPremium.logo %>" alt="<%= sponsorPremium.name %>" class="photo" itemprop="image">
+    </a>
+  </li>
+<% end %>
+  <li class="sponsor-item">
+    <a class="sponsor-logo sponsor-link sponsor-call" href="#">
+      <img src="<%= @getTheme() %>/img/your-logo.jpg" alt="your logo" class="photo">
+    </a>
+  </li>
+</ul>
+
+<h3>Ouro</h3>
+<ul class="sponsors-list sponsor-gold">
+
+<% for sponsorGold in @sponsorsGold: %>
+  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="<%= sponsorGold.url %>" class="sponsor-logo sponsor-link" itemprop="url">
+      <img src="<%= sponsorGold.logo %>" alt="<%= sponsorGold.name %>" class="photo" itemprop="image">
+    </a>
+  </li>
+<% end %>
+  <li class="sponsor-item">
+    <a class="sponsor-logo sponsor-link sponsor-call" href="#">
+      <img src="<%= @getTheme() %>/img/your-logo.jpg" alt="your logo" class="photo">
+    </a>
+  </li>
+</ul>
+
+<h3>Prata</h3>
+<ul class="sponsors-list sponsor-silver">
+
+<% for sponsorSilver in @sponsorsSilver: %>
+  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="<%= sponsorSilver.url %>" class="sponsor-logo sponsor-link" itemprop="url">
+      <img src="<%= sponsorSilver.logo %>" alt="<%= sponsorSilver.name %>" class="photo" itemprop="image">
     </a>
   </li>
 <% end %>

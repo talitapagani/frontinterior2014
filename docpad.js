@@ -34,7 +34,7 @@ module.exports = {
     // Site info
     site: {
       theme: "frontinterior",
-      url: "http://talitapagani.github.io/frontinterior2014/"
+      url: "http://www.frontinterior.com.br"
       //googleanalytics: "UA-33656081-1"
     },
 
@@ -44,7 +44,7 @@ module.exports = {
     sections: [
       'about',
       'location',
-      //'speakers',
+      'speakers',
       //'schedule',
       'sponsors',
       'partners',
@@ -69,32 +69,32 @@ module.exports = {
         time: "9h00"
       },
       {
-        name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Linux Foundation",
+        name: "Almir Filho",
+        photo: "themes/frontinterior/img/speaker-almir-filho.jpg",
+        bio: "Desenvolvedor web na Globo.com e co-fundador do Loop Infinito, onde compartilha seu conhecimento, experiências e pensamentos sobre front-end. Possui mestrado em Ciência da Computação, é entusiasta e extremamente interessado pelo mundo dos padrões web e produtividade. Artista de sanduíches nas horas vagas.",
+        company: "Globo.com",
         link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
+          href: "http://twitter.com/almirfilho",
+          text: "@almirfilho"
         },
         presentation: {
-          title: "Digging into a Linux Kernel",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          title: "TBD",
+          description: "TBD",
           time: "10h00"
         }
       },
       {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
+        name: "Davidson Fellipe",
+        photo: "themes/frontinterior/img/speaker-davidson-fellipe.jpg",
+        bio: "É Front-end engineer na Globo.com, onde já se envolveu com projetos para o Globoesporte.com, Futpédia, Tempo Real, Eu Atleta e Sportv. Bastante envolvido com a comunidade JS, sendo o fundador do Riojs e Pernambucojs, além de organizar os eventos Front in BH e Front in Recife. Graduado em engenharia da computação pela UPE, técnico em eletrônica pelo IFPE e Mestrando em Ciência da Computação na PUC-Rio.",
+        company: "Globo.com",
         link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
+          href: "http://github.com/davidsonfellipe",
+          text: "@davidsonfellipe"
         },
         presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          title: "TBD",
+          description: "TBD",
           time: "11h00"
         }
       },
@@ -102,7 +102,7 @@ module.exports = {
         name: "Lunch",
         time: "12h00"
       },
-      {
+      /*{
         name: "Chuck Norris",
         photo: "themes/yellow-swan/img/speaker.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -165,16 +165,32 @@ module.exports = {
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time: "17h00"
         }
-      }
+      }*/
     ],
 
     // List of Sponsors
-    sponsors: [
-      {
+    sponsorsPremium: [
+      /*{
         name: "Eventick",
         logo: "themes/frontinterior/img/sponsor.png",
         url: "http://eventick.com.br"
+      }*/
+    ],
+
+    sponsorsGold: [
+      {
+        name: "Globo.com",
+        logo: "themes/frontinterior/img/sponsor-globocom.png",
+        url: "https://github.com/globocom"
       }
+    ],
+
+    sponsorsSilver: [
+      /*{
+        name: "Eventick",
+        logo: "themes/frontinterior/img/sponsor.png",
+        url: "http://eventick.com.br"
+      }*/
     ],
 
     // List of Partners
@@ -183,6 +199,11 @@ module.exports = {
         name: "BrazilJS",
         logo: "themes/frontinterior/img/partner.png",
         url: "http://braziljs.org"
+      },
+      {
+        name: "Eventick",
+        logo: "themes/frontinterior/img/sponsor.png",
+        url: "http://eventick.com.br"
       }
     ],
 
