@@ -11,8 +11,14 @@
 
           <li class="team-item">
               <img src="<%= @getTheme() %>/img/avatar-richard.jpg" alt="Imagem de Richard Johansen" />
-              <h4 class="subtitle">Richard D. Johansen</h4>
+              <h4 class="subtitle">Richard Johansen</h4>
               <p class="small"><a href="http://twitter.com/ridjohansen">@ridjohansen</a></p>
+          </li>
+
+          <li class="team-item">
+              <img src="<%= @getTheme() %>/img/avatar-leticia.jpg" alt="Imagem de Letícia Paes" />
+              <h4 class="subtitle">Letícia Paes</h4>
+              <p class="small"><a href="http://twitter.com/leticiapaesp">@leticiapaesp</a></p>
           </li>
 
           <li class="team-item">

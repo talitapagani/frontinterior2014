@@ -163,7 +163,7 @@
     <% if @conf.price || @callToAction: %>
       <div class="call-action-area">
         <% if @conf.price: %>
-          <span class="price">Apenas <%= @conf.price %></span>
+          <span class="price">R$ <%= @conf.price %></span>
         <% end %>
 
         <% if @callToAction: %>

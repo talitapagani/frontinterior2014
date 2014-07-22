@@ -8,23 +8,23 @@ module.exports = {
     // Conference info
     conf: {
       name: "FrontInterior 2014",
-      description: "Conference description",
+      description: "O FrontInterior 2014 é a segunda edição o maior evento de desenvolvimento web do interior paulista!",
       date: "29 e 30 de Agosto de 2014",
       theme: "Mobile Web",
       // If your event is free, just comment this line
-      //price: "Aguarde",
-      venue: "SESI (Horto)",
-      address: "Rua Profa. Zenita Alcântara Nogueira, 10166",
+      price: "40 (primeiro lote promocional)",
+      venue: "Obeid Plaza Hotel (Salão Beyrute)",
+      address: "Avenida Nações Unidas, 19-50, Jardim Brasil",
       city: "Bauru",
       state: "SP"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
-    /*callToAction: {
+    callToAction: {
         text: "Inscreva-se!",
         link: "http://eventick.com.br/frontinterior2014"
-    },*/
+    },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
     forkButton: {
@@ -45,7 +45,8 @@ module.exports = {
       'about',
       'location',
       'speakers',
-      //'schedule',
+      'schedule',
+      'tickets',
       'sponsors',
       'partners',
       'contact'
@@ -57,6 +58,7 @@ module.exports = {
       location: "Local",
       speakers: "Palestrantes",
       schedule: "Agenda",
+      tickets: "Garanta seu ingresso",
       sponsors: "Patrocinadores",
       partners: "Apoiadores",
       contact: "Seja um patrocinador"
@@ -65,8 +67,8 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
-        time: "9h00"
+        name: "Credenciamento / Networking",
+        time: "8h00"
       },
       {
         name: "Almir Filho",
@@ -78,10 +80,14 @@ module.exports = {
           text: "@almirfilho"
         },
         presentation: {
-          title: "TBD",
-          description: "TBD",
-          time: "10h00"
+          title: "Padrões Throttle e Debounce em Aplicações Web",
+          description: "Serão apresentados os padrões throttle e debounce. Onde, quando e porque utilizá-los? Eles resolvem alguns problemas que podem comprometer o desempenho de uma aplicação web inteira devido ao mal uso dos eventos.",
+          time: "09h00"
         }
+      },
+      {
+        name: "Pausa para o café / Mais Networking!",
+        time: "10h00"
       },
       {
         name: "Davidson Fellipe",
@@ -93,88 +99,95 @@ module.exports = {
           text: "@davidsonfellipe"
         },
         presentation: {
-          title: "TBD",
-          description: "TBD",
-          time: "11h00"
+          title: "Workflow para desenvolvimento mobile usando Grunt.JS",
+          description: "Como utilizar o Grunt.js associado ao desenvolvimento mobile? Quais são as tarefas relevantes para monitorar? Quais plugins são necessários? Se interessou? Então, venha conhecer essas dicas!",
+          time: "10h30"
         }
-      },
-      {
-        name: "Lunch",
-        time: "12h00"
       },
       {
         name: "Gil Crespo",
         photo: "themes/frontinterior/img/speaker-gil-crespo.jpg",
-        bio: "Atua na área de desenvolvimento Front-End desde 2005 e vem utilizando CSS3, HTML5 e jQuery para melhorar toda a experiência do usuário na operação de websites e sistemas. Trabalha com design resposivo aplicado à mobile e é autor do livro \"Responsive Web Design with jQuery\" (2013), lançado pela Editora PACKT Publishing.",
+        bio: "Trabalha na UPPERCASE Consultoria e atua na área de desenvolvimento Front-End desde 2005. Vem utilizando CSS3, HTML5 e jQuery para melhorar toda a experiência do usuário na operação de websites e sistemas. Trabalha com design resposivo aplicado à mobile e é autor do livro \"Responsive Web Design with jQuery\" (2013), lançado pela Editora PACKT Publishing.",
         company: "UPPERCASE Consultoria",
-        link: {
+        /*link: {
           href: "http://twitter.com/gilcrespo",
           text: "@gilcrespo"
-        },
+        },*/
         presentation: {
-          title: "TBD",
-          description: "TBD",
-          time: "13h00"
+          title: "Plugins jQuery para turbinar sites responsivos",
+          description: "Veremos alguns elementos ainda pouco explorados em sites responsivos e como turbiná-los usando plugins jQuery. Explorando mais detalhes desses elementos, teremos como resultado final pouca programação e grande melhoria na experiência do usuário graças à comunidade.",
+          time: "11h30"
         }
-      }/*,
+      },
       {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
+        name: "Almoço batuta",
+        time: "13h30"
+      },
+      {
+        name: "Beto Muniz",
+        photo: "themes/frontinterior/img/speaker-beto-muniz.jpg",
+        bio: "Beto Muniz é um Mineiro-Capixaba apaixonado por Front End e que atualmente trabalha na Tagon8 como Front End Engineer, inspirado pelo estudo de novas tecnologias e pela comunidade, Beto está sempre atento no que esta acontecendo e disposto a contribuir com a comunidade e prova disso é sua participação em Projetos Open-Source, Eventos e Organizações como LearnLayout.com, Google I/O Extended, TDC, EmberJS Meetup, GoLang Meetup, NodeJS Meetup, MinasDev etc.",
+        company: "Tagon8",
         link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
+          href: "http://twitter.com/obetomuniz",
+          text: "@obetomuniz"
         },
         presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          title: "Web Components, a próxima revolução do web desenvolvimento",
+          description: "Nesta palestra será abordado conceitos envolvendo Web Components e exemplos práticos. Iremos avaliar todo o poder que esta nova feature trás consigo e também tópicos relacionados a como utilizá-la desde já de forma funcional, cross-browser e multi-plataforma. Sem dúvidas, depois desta apresentação você ficará fascinado por este novo mundo que está surgindo e que não está tão distante da realidade dos desenvolveres atuais.",
           time: "14h00"
         }
       },
       {
-        name: "Coffee-break",
+        name: "Cafézinho esperto da tarde / Networking",
         time: "15h00"
       },
       {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
+        name: "Loiane Groner",
+        photo: "themes/frontinterior/img/speaker-loiane-groner.jpg",
+        bio: "Bacharel em Ciência da Computação, trabalha como Gerente de Desenvolvimento de Projetos no Citibank (maior instituição financeira do mundo), em São Paulo. Possui 8+ anos de experiência em TI. Autora dos livrosExt JS 4 First Look, Mastering Ext JS e Sencha Architect App Development, todos publicados pela editora Packt e lançados mundialmente em inglês. Evangelista Java e Sencha Community Leader no Brasil.",
+        company: "Citibank",
         link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
+          href: "http://twitter.com/loiane",
+          text: "@loiane"
         },
         presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
+          title: "Breve!",
+          description: "Breve!",
+          time: "15h30"
         }
       },
       {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
-        },
-        presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
-        }
-      }*/
+        name: "Palestra a definir",
+        time: "16h30"
+      },
+      {
+        name: "Encerramento e Sorteio de Brindes",
+        time: "17h00"
+      },
+      {
+        name: "Pós-evento a.k.a. Party Hard",
+        time: "18h00"
+      }
     ],
 
     // List of Sponsors
     sponsorsPremium: [
-      /*{
-        name: "Eventick",
-        logo: "themes/frontinterior/img/sponsor.png",
-        url: "http://eventick.com.br"
-      }*/
+      {
+        name: "W3C",
+        logo: "themes/frontinterior/img/sponsor-w3c.png",
+        url: "http://w3c.br"
+      },
+      {
+        name: "Nic.br",
+        logo: "themes/frontinterior/img/sponsor-nicbr.png",
+        url: "http://nic.br"
+      },
+      {
+        name: "CGI.br",
+        logo: "themes/frontinterior/img/sponsor-cgibr.png",
+        url: "http://cgi.br"
+      }
     ],
 
     sponsorsGold: [
@@ -204,6 +217,11 @@ module.exports = {
         name: "Eventick",
         logo: "themes/frontinterior/img/sponsor.png",
         url: "http://eventick.com.br"
+      },
+      {
+        name: "Novatec",
+        logo: "themes/frontinterior/img/partner-novatec.png",
+        url: "http://novatec.com.br"
       }
     ],
 

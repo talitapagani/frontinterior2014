@@ -1,6 +1,6 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+<p>O FrontInterior terá um dia de abertura na sexta-feira, dia 29/08, e palestras durante todo o sábado, dia 30/08. Apresentamos, a seguir, a grade preliminar do dia 30. Aguardem novidades sobre o dia de abertura!</p>
+<h3>30/08 (sábado)</h3>
 <div class="schedule-tbl">
   <table>
     <thead>

@@ -55,7 +55,7 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  padding: 100px 0 100px;
+  padding: 100px 0 150px;
   text-align:center;
   position: fixed;
   z-index: 1;
@@ -100,7 +100,7 @@ nav {
   padding: 0;
   position: relative;
   background: #FFF;
-  margin-top: 600px;
+  margin-top: 650px;
   z-index: 5;
   width: 100%;
 }
@@ -112,6 +112,12 @@ nav {
   padding:19px;
   margin: 0 -20px 0;
 }
+
+/* =============================================================================
+   TICKETS
+   ========================================================================== */
+
+   .tickets-button {display: none; margin: 10px auto 10px auto;}
 
 /* =============================================================================
    SPEAKER
@@ -198,6 +204,12 @@ nav {
   line-height: 100px;
 }
 
+.team-link {
+  width: 60px;
+  height:60px;
+  line-height: 60px;
+}
+
 .sponsor-premium .sponsor-link {
     width: 170px;
     height:170px;
@@ -210,9 +222,9 @@ nav {
     line-height: 150px;
 }
 
-.team-item { text-align: center; width: 150px; }
+.team-item { text-align: center; width: 120px; }
 
-.team-item img { border-radius: 50%; }
+.team-item img { border-radius: 50%; width: 100%; height: 100%; }
 
 /* =============================================================================
    CONTATO
@@ -262,6 +274,9 @@ nav {
 
 @media only screen and (min-width:320px) and (max-width : 800px) {
 
+  /* header and content */
+  .header, .content {position: relative; margin-top: 0;}
+
   /* schedule */
   .schedule-tbl {padding:1px;}
   .schedule-tbl td, .schedule-tbl th {padding:10px;}
@@ -307,6 +322,14 @@ nav {
 }
 
 @media only screen and (max-width : 480px) {
+
+  /* header and content */
+  .header, .content {position: relative; margin-top: 0;}
+
+  /* tickets */
+  .tickets-embeded {display: none;}
+  .tickets-button {display: block;}
+
   /* nav */
   nav {display: none;}
   .header {padding:20px 0; height: auto;}
@@ -316,7 +339,7 @@ nav {
     font-size: 1.4em;
   }
   .call-action-area .price {
-    font-size:2em;
+    font-size:1.5em;
     margin: 0 0 15px;
     display: block;
   }
