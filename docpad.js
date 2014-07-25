@@ -8,7 +8,7 @@ module.exports = {
     // Conference info
     conf: {
       name: "FrontInterior 2014",
-      description: "O FrontInterior 2014 é a segunda edição o maior evento de desenvolvimento web do interior paulista!",
+      description: "O FrontInterior 2014 é a segunda edição do maior evento de desenvolvimento web do interior paulista!",
       date: "29 e 30 de Agosto de 2014",
       theme: "Mobile Web",
       // If your event is free, just comment this line
@@ -71,6 +71,25 @@ module.exports = {
         time: "8h00"
       },
       {
+        name: "Gil Crespo",
+        photo: "themes/frontinterior/img/speaker-gil-crespo.jpg",
+        bio: "Trabalha na UPPERCASE Consultoria e atua na área de desenvolvimento Front-End desde 2005. Vem utilizando CSS3, HTML5 e jQuery para melhorar toda a experiência do usuário na operação de websites e sistemas. Trabalha com design resposivo aplicado à mobile e é autor do livro \"Responsive Web Design with jQuery\" (2013), lançado pela Editora PACKT Publishing.",
+        company: "UPPERCASE Consultoria",
+        /*link: {
+          href: "http://twitter.com/gilcrespo",
+          text: "@gilcrespo"
+        },*/
+        presentation: {
+          title: "Plugins jQuery para turbinar sites responsivos",
+          description: "Veremos alguns elementos ainda pouco explorados em sites responsivos e como turbiná-los usando plugins jQuery. Explorando mais detalhes desses elementos, teremos como resultado final pouca programação e grande melhoria na experiência do usuário graças à comunidade.",
+          time: "09h00"
+        }
+      },
+      {
+        name: "Pausa para o café / Mais Networking!",
+        time: "10h00"
+      },
+      {
         name: "Almir Filho",
         photo: "themes/frontinterior/img/speaker-almir-filho.jpg",
         bio: "Desenvolvedor web na Globo.com e co-fundador do Loop Infinito, onde compartilha seu conhecimento, experiências e pensamentos sobre front-end. Possui mestrado em Ciência da Computação, é entusiasta e extremamente interessado pelo mundo dos padrões web e produtividade. Artista de sanduíches nas horas vagas.",
@@ -81,13 +100,9 @@ module.exports = {
         },
         presentation: {
           title: "Padrões Throttle e Debounce em Aplicações Web",
-          description: "Serão apresentados os padrões throttle e debounce. Onde, quando e porque utilizá-los? Eles resolvem alguns problemas que podem comprometer o desempenho de uma aplicação web inteira devido ao mal uso dos eventos.",
-          time: "09h00"
+          description: "Serão apresentados os padrões throttle e debounce. Onde, quando e porque utilizá-los? Eles resolvem alguns problemas que podem comprometer o desempenho de uma aplicação web inteira devido ao mau uso dos eventos.",
+          time: "10h30"
         }
-      },
-      {
-        name: "Pausa para o café / Mais Networking!",
-        time: "10h00"
       },
       {
         name: "Davidson Fellipe",
@@ -101,27 +116,31 @@ module.exports = {
         presentation: {
           title: "Workflow para desenvolvimento mobile usando Grunt.JS",
           description: "Como utilizar o Grunt.js associado ao desenvolvimento mobile? Quais são as tarefas relevantes para monitorar? Quais plugins são necessários? Se interessou? Então, venha conhecer essas dicas!",
-          time: "10h30"
-        }
-      },
-      {
-        name: "Gil Crespo",
-        photo: "themes/frontinterior/img/speaker-gil-crespo.jpg",
-        bio: "Trabalha na UPPERCASE Consultoria e atua na área de desenvolvimento Front-End desde 2005. Vem utilizando CSS3, HTML5 e jQuery para melhorar toda a experiência do usuário na operação de websites e sistemas. Trabalha com design resposivo aplicado à mobile e é autor do livro \"Responsive Web Design with jQuery\" (2013), lançado pela Editora PACKT Publishing.",
-        company: "UPPERCASE Consultoria",
-        /*link: {
-          href: "http://twitter.com/gilcrespo",
-          text: "@gilcrespo"
-        },*/
-        presentation: {
-          title: "Plugins jQuery para turbinar sites responsivos",
-          description: "Veremos alguns elementos ainda pouco explorados em sites responsivos e como turbiná-los usando plugins jQuery. Explorando mais detalhes desses elementos, teremos como resultado final pouca programação e grande melhoria na experiência do usuário graças à comunidade.",
           time: "11h30"
         }
       },
       {
         name: "Almoço batuta",
-        time: "13h30"
+        time: "12h30"
+      },
+      {
+        name: "Loiane Groner",
+        photo: "themes/frontinterior/img/speaker-loiane-groner.jpg",
+        bio: "Bacharel em Ciência da Computação, trabalha como Gerente de Desenvolvimento de Projetos no Citibank (maior instituição financeira do mundo), em São Paulo. Possui 8+ anos de experiência em TI. Autora dos livrosExt JS 4 First Look, Mastering Ext JS e Sencha Architect App Development, todos publicados pela editora Packt e lançados mundialmente em inglês. Evangelista Java e Sencha Community Leader no Brasil.",
+        company: "Citibank",
+        link: {
+          href: "http://twitter.com/loiane",
+          text: "@loiane"
+        },
+        presentation: {
+          title: "10 dicas de desempenho para apps mobile híbridas",
+          description: "Muitos desenvolvedores se questionam se aplicações mobile híbridas possuem boa performance se comparadas a apps nativas. Nessa palestra veremos dicas,truques e boas práticas que realmente fazem a diferença no desempenho de aplicativos móveis, envolvendo tecnologias como Phonegap, jQuery Mobile e Sencha Touch. Entre outras técnicas, mostraremos como lidar com problemas gerados pelo atraso do evento touch, dicas para melhorar o desempenho de requisições assíncronas, a melhor forma de carregar dados do servidor, além de otimização de código no jquery mobile.",
+          time: "14h00"
+        }
+      },
+      {
+        name: "Cafézinho esperto da tarde / Networking",
+        time: "15h00"
       },
       {
         name: "Beto Muniz",
@@ -135,25 +154,6 @@ module.exports = {
         presentation: {
           title: "Web Components, a próxima revolução do web desenvolvimento",
           description: "Nesta palestra será abordado conceitos envolvendo Web Components e exemplos práticos. Iremos avaliar todo o poder que esta nova feature trás consigo e também tópicos relacionados a como utilizá-la desde já de forma funcional, cross-browser e multi-plataforma. Sem dúvidas, depois desta apresentação você ficará fascinado por este novo mundo que está surgindo e que não está tão distante da realidade dos desenvolveres atuais.",
-          time: "14h00"
-        }
-      },
-      {
-        name: "Cafézinho esperto da tarde / Networking",
-        time: "15h00"
-      },
-      {
-        name: "Loiane Groner",
-        photo: "themes/frontinterior/img/speaker-loiane-groner.jpg",
-        bio: "Bacharel em Ciência da Computação, trabalha como Gerente de Desenvolvimento de Projetos no Citibank (maior instituição financeira do mundo), em São Paulo. Possui 8+ anos de experiência em TI. Autora dos livrosExt JS 4 First Look, Mastering Ext JS e Sencha Architect App Development, todos publicados pela editora Packt e lançados mundialmente em inglês. Evangelista Java e Sencha Community Leader no Brasil.",
-        company: "Citibank",
-        link: {
-          href: "http://twitter.com/loiane",
-          text: "@loiane"
-        },
-        presentation: {
-          title: "Breve!",
-          description: "Breve!",
           time: "15h30"
         }
       },
