@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run-script',
+1 verbose cli   'watch' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose run-script [ 'prewatch', 'watch', 'postwatch' ]
+5 info prewatch ConfBoilerplate@0.2.0
+6 info watch ConfBoilerplate@0.2.0
+7 verbose unsafe-perm in lifecycle true
+8 info ConfBoilerplate@0.2.0 Failed to exec watch script
+9 error ConfBoilerplate@0.2.0 watch: `node_modules/docpad/bin/docpad run`
+9 error Exit status 1
+10 error Failed at the ConfBoilerplate@0.2.0 watch script.
+10 error This is most likely a problem with the ConfBoilerplate package,
+10 error not with npm itself.
+10 error Tell the author that this fails on your system:
+10 error     node_modules/docpad/bin/docpad run
+10 error You can get their info via:
+10 error     npm owner ls ConfBoilerplate
+10 error There is likely additional logging output above.
+11 error System Windows_NT 6.1.7600
+12 error command "c:\\Program Files (x86)\\nodejs\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run-script" "watch"
+13 error cwd c:\Users\Talita Pagani\Documents\GitHub\conf-boilerplate
+14 error node -v v0.10.28
+15 error npm -v 1.4.9
+16 error code ELIFECYCLE
+17 verbose exit [ 1, true ]

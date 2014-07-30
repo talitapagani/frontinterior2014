@@ -222,6 +222,16 @@ module.exports = {
         name: "Novatec",
         logo: "themes/frontinterior/img/partner-novatec.png",
         url: "http://novatec.com.br"
+      },
+      {
+        name: "Lecom",
+        logo: "themes/frontinterior/img/partner-lecom.jpg",
+        url: "http://lecom.com.br"
+      },
+      {
+        name: "Locaweb",
+        logo: "themes/frontinterior/img/partner-locaweb.jpg",
+        url: "http://locaweb.com.br"
       }
     ],
 
