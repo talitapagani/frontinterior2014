@@ -12,7 +12,7 @@ module.exports = {
       date: "29 e 30 de Agosto de 2014",
       theme: "Mobile Web",
       // If your event is free, just comment this line
-      price: "40 (primeiro lote promocional)",
+      price: "79,90 (último lote)",
       venue: "Obeid Plaza Hotel (Salão Beyrute)",
       address: "Avenida Nações Unidas, 19-50, Jardim Brasil",
       city: "Bauru",
@@ -63,6 +63,26 @@ module.exports = {
       partners: "Apoiadores",
       contact: "Seja um patrocinador"
     },
+
+    // opening schedule or pre-schedule
+    opening_schedule: [
+      {
+        name: "Credenciamento",
+        time: "19h00"
+      },
+      {
+        name: "Abertura",
+        time: "19h30"
+      },
+      {
+        name: "Palestra de abertura (a confirmar)",
+        time: "19h45"
+      },
+      {
+        name: "Lightning Talks",
+        time: "20h45"
+      }
+    ],
 
     // The entire schedule
     schedule: [
@@ -145,25 +165,25 @@ module.exports = {
       {
         name: "Beto Muniz",
         photo: "themes/frontinterior/img/speaker-beto-muniz.jpg",
-        bio: "Beto Muniz é um Mineiro-Capixaba apaixonado por Front End e que atualmente trabalha na Tagon8 como Front End Engineer, inspirado pelo estudo de novas tecnologias e pela comunidade, Beto está sempre atento no que esta acontecendo e disposto a contribuir com a comunidade e prova disso é sua participação em Projetos Open-Source, Eventos e Organizações como LearnLayout.com, Google I/O Extended, TDC, EmberJS Meetup, GoLang Meetup, NodeJS Meetup, MinasDev etc.",
+        bio: "Beto Muniz é um Mineiro-Capixaba apaixonado por Front-end e que atualmente trabalha na Tagon8 como Front End Engineer, inspirado pelo estudo de novas tecnologias e pela comunidade, Beto está sempre atento no que esta acontecendo e disposto a contribuir com a comunidade e prova disso é sua participação em Projetos Open-Source, Eventos e Organizações como LearnLayout.com, Google I/O Extended, TDC, EmberJS Meetup, GoLang Meetup, NodeJS Meetup, MinasDev etc.",
         company: "Tagon8",
         link: {
           href: "http://twitter.com/obetomuniz",
           text: "@obetomuniz"
         },
         presentation: {
-          title: "Web Components, a próxima revolução do web desenvolvimento",
+          title: "Web Components, a próxima revolução do desenvolvimento web",
           description: "Nesta palestra será abordado conceitos envolvendo Web Components e exemplos práticos. Iremos avaliar todo o poder que esta nova feature trás consigo e também tópicos relacionados a como utilizá-la desde já de forma funcional, cross-browser e multi-plataforma. Sem dúvidas, depois desta apresentação você ficará fascinado por este novo mundo que está surgindo e que não está tão distante da realidade dos desenvolveres atuais.",
           time: "15h30"
         }
       },
       {
-        name: "Palestra a definir",
+        name: "Inauguração e apresentação do Meetup de desenvolvedores front-end do interior paulista",
         time: "16h30"
       },
       {
         name: "Encerramento e Sorteio de Brindes",
-        time: "17h00"
+        time: "17h30"
       },
       {
         name: "Pós-evento a.k.a. Party Hard",
@@ -232,6 +252,21 @@ module.exports = {
         name: "Locaweb",
         logo: "themes/frontinterior/img/partner-locaweb.jpg",
         url: "http://locaweb.com.br"
+      },
+      {
+        name: "Casa do Código",
+        logo: "themes/frontinterior/img/partner-casadocodigo.jpg",
+        url: "http://casadocodigo.com.br"
+      },
+      {
+        name: "96 FM Bauru",
+        logo: "themes/frontinterior/img/partner-96fmbauru.jpg",
+        url: "http://www.jcnet.com.br/"
+      },
+      {
+        name: "Minas Dev",
+        logo: "themes/frontinterior/img/partner-minasdev.jpg",
+        url: "http://minasdev.org/"
       }
     ],
 
