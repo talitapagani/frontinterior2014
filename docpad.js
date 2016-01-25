@@ -12,7 +12,7 @@ module.exports = {
       date: "29 e 30 de Agosto de 2014",
       theme: "Mobile Web",
       // If your event is free, just comment this line
-      price: "79,90 (último lote)",
+      price: "80 (apenas no local, inscrições encerradas pelo sistema)",
       venue: "Obeid Plaza Hotel (Salão Beyrute)",
       address: "Avenida Nações Unidas, 19-50, Jardim Brasil",
       city: "Bauru",
@@ -75,8 +75,19 @@ module.exports = {
         time: "19h30"
       },
       {
-        name: "Palestra de abertura (a confirmar)",
-        time: "19h45"
+        name: "Richard Johansen",
+        photo: "themes/frontinterior/img/avatar-richard.jpg",
+        bio: "Engenheiro front-end senior, criador do CSS Browser Selector Plus, palestrante de eventos como o TDC e a Conferência Web.br do W3C.",
+        company: "Hotel urbano",
+        link: {
+          href: "http://twitter.com/ridjohansen",
+          text: "@ridjohansen"
+        },
+        presentation: {
+          title: "Font icons e SVG para web em alta resolução",
+          description: " ",
+          time: "20h00"
+        }
       },
       {
         name: "Lightning Talks",
@@ -178,16 +189,20 @@ module.exports = {
         }
       },
       {
-        name: "Inauguração e apresentação do Meetup de desenvolvedores front-end do interior paulista",
+        name: "Palestra surpresa",
         time: "16h30"
       },
       {
-        name: "Encerramento e Sorteio de Brindes",
+        name: "Inauguração e apresentação do Meetup de desenvolvedores front-end do interior paulista",
         time: "17h30"
       },
       {
-        name: "Pós-evento a.k.a. Party Hard",
+        name: "Encerramento e Sorteio de Brindes",
         time: "18h00"
+      },
+      {
+        name: "Pós-evento a.k.a. Party Hard",
+        time: "18h15"
       }
     ],
 
